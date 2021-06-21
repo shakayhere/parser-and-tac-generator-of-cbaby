@@ -1,0 +1,52 @@
+c	INTEGER	0
+t1	STRING	4	"\n"
+num	INTEGER	6
+length	INTEGER	10
+i	INTEGER	14
+j	INTEGER	18
+first	INTEGER	22
+temp	INTEGER	26
+a	CHAR	30
+t2	STRING	31	"enter number"
+t3	STRING	43	"\n"
+t4	STRING	45	"\n"
+t5	INTEGER	47
+t6	STRING	51	"one"
+t7	STRING	54	"\n"
+t8	STRING	56	"two"
+t9	STRING	59	"\n"
+t10	STRING	61	"others"
+t11	STRING	67	"\n"
+t12	INTEGER	69
+t13	STRING	73	"temp is "
+t14	STRING	81	"\n"
+t15	STRING	83	"\n"
+ct	CHAR	85
+t16	STRING	86	"\n"
+a	INTEGER	88
+b	INTEGER	92
+h	INTEGER	96
+t17	STRING	100	"'write' function"
+t18	STRING	116	"\n"
+t19	STRING	118	"'writeChar' function"
+t20	STRING	138	"\n"
+t21	STRING	140	"'numPrint' function"
+t22	STRING	159	"\n"
+t23	STRING	161	"\n"
+w1	INTEGER	163
+w2	INTEGER	167
+t24	STRING	171	"\n"
+t25	STRING	173	"\n"
+t26	STRING	175	"Nested loop check"
+t27	STRING	192	"\n"
+t28	STRING	194	"Hello "
+t29	STRING	200	" Compiler "
+t30	STRING	210	"\n"
+t31	INTEGER	212
+t32	INTEGER	216
+t33	STRING	220	"Nested condition check"
+t34	STRING	242	"\n"
+t35	STRING	244	"Hello 1st IF"
+t36	STRING	256	"\n"
+t37	STRING	258	"Hello 2nd IF"
+t38	STRING	270	"\n"

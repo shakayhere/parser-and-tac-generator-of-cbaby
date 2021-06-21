@@ -218,23 +218,28 @@ variables. This file contains data variables only, not function names.
 <table>
 <tr>
 <th>test.cbaby</th>
-<th>parser-symboltable.txt</th>
-<th>parsetree.txt</th>
+<th>translator-symboltable.txt</th>
+<th>tac.txt</th>
 </tr>
 <tr>
 <td>
-func void write(char: j)<br />
+func Integer: addNumbers(Integer: a, Integer: b)<br />
 {<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	print(j);<br />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	ret;<br />
-}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Integer: c;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char: d;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c := a + b + 5 + 7;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ret c;<br />
+}
 </td>
 <td>
 <pre>
 a	INTEGER	0
 b	INTEGER	4
 c	INTEGER	8
-t1	INTEGER	12
+d	CHAR	12
+t1	INTEGER	13
+t2	INTEGER	17
+t3	INTEGER	21
 </pre>
 </td>
 <td>
@@ -244,9 +249,12 @@ t1	INTEGER	12
 2	integer a
 3	integer b
 4	integer c
-5	t1 = a + b
-6	c = t1
-7	ret c
+5	char d
+6	t1 = a + b
+7	t2 = t1 + 5
+8	t3 = t2 + 7
+9	c = t3
+10	ret c
 ```
 
 </td>

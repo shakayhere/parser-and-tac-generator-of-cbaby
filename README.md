@@ -1,6 +1,6 @@
 # Parser and Three Address Code Generator of CBaby
 
-The attached project generates a parser and three address code, after lexical analysis of language (defined by rules) called CBaby
+The attached project generates a parser and three address code, after lexical analysis of a compiler for language (defined by rules) called CBaby
 
 [About CBaby Language](https://github.com/shakayhere/lexical-analyzer-of-cbaby#about-cbaby-language)
 <br />
